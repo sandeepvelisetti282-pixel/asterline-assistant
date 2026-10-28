@@ -1,0 +1,20 @@
+# .gitignore
+# Existing patterns (assume they exist)
+# ...
+**/__pycache__/
+
+# Python cache
+__pycache__/
+*.py[cod]
+# Virtual environment
+venv/
+# Environment variables
+.env
+# SQLite database files
+*.db
+# ChromaDB storage
+chroma/
+# OS files
+.DS_Store
+# Logs
+*.log
